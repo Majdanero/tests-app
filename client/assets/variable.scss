@@ -1,0 +1,69 @@
+$col_white: #FFFFFF;
+$col_dark: #000000;
+
+$col_text: #E6E6E6;
+
+$col_bg: #171C2A;
+$col_bg_light: #20273B;
+$col_bg_dark: #111420;
+
+$scroll: #2d2f31;
+$scroll_bar: #0066ff;
+
+$col_purple: #7F31FE;
+$col_red: #FF3737;
+$col_green: #38D163;
+$col_yellow: #DAB147;
+$col_gray: #BABABA;
+
+$col_main: $col_purple;
+$col_main_light: lighten($col_main, 10%);
+$col_main_dark: #4102A9;
+$col_main_darker: #2E2958;
+
+$c_main: #0066FF;
+$c_positive: #91BA5D;
+$c_negative: #D24B4B;
+$c_gray_1: #1B1D1F;
+$c_gray_2: #181A1C;
+$c_gray_3: #26282D;
+$c_text_1: #FFFFFF;
+$c_text_2: #767676;
+$c_blue_1: $c_main;
+$c_green_1: $c_positive;
+$c_red_1: $c_negative;
+$c_orange_1: #FF5C00;
+$c_orange_2: #FFB800;
+$c_yellow_1: #FFE500;
+
+@mixin font-title {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: normal;
+
+}
+
+@mixin font-subtitle {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+@mixin font-subSubtitle {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+@mixin font-normal {
+	font-size: 13px;
+	font-weight: 300;
+}
+
+@mixin font-normal-bold {
+	font-size: 13px;
+	font-weight: 700;
+}
+
+@mixin font-other-1 {
+	font-size: 14px;
+	font-weight: 600;
+}
